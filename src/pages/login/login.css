@@ -1,0 +1,60 @@
+.login{
+    height: calc(100vh -50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(197, 128, 71, 0.5),
+        rgba(197, 128, 71, 0.5),
+    ),
+    url('https://c0.wallpaperflare.com/preview/485/486/379/background-colors-texture-detail.jpg');
+    background-size:cover;
+    align-items: center;
+
+
+}
+
+.loginTitle{
+    font-size: 50px;
+}
+
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.loginForm > label {
+    margin: 10px 0;
+}
+
+.loginInput{
+    padding: 10px;
+    background-color: #fff;
+    border: none ;
+}
+
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color:#fff;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    cursor: pointer;
+    padding: 10px;
+    color: #fff;
+    background-color: teal;
+    border: none;
+    border-radius: 10px;
+
+}
