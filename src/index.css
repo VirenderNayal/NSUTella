@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.font-mtsrt{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-popins{
+    font-family: 'Poppins', sans-serif;
+}
