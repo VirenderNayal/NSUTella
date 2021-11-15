@@ -12,7 +12,7 @@ const Societies = () => {
                     societies.map((soc) => (
                         <div className="col">
                             <div className="card h-100 align-items-center">
-                                <img style={{width: "200px", height : "200px", marginTop: "20px"}} src="https://picsum.photos/200" class="card-img-top" alt="..." />
+                                <img style={{width: "200px", height : "200px", marginTop: "20px"}} src={soc.img} class="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">{soc.name}</h5>
                                     <p className="card-text">{soc.desc}</p>
