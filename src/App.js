@@ -8,6 +8,7 @@ import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 import Explore from "./pages/explore/Explore";
 import Footer from "./components/footer/footer";
+import Team from "./components/team/team";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route exact path="/settings" component={Settings} />
         <Route exact path="/single" component={Single} />
       </Switch>
+      <Team/>
       <Footer/>
     </Router>
   );
