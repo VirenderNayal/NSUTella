@@ -1,5 +1,5 @@
 import React from "react";
-import "./society.css";
+// import "./society.css";
 
 const Society = () => {
   return (

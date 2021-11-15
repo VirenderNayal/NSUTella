@@ -7,9 +7,9 @@ import "./topbar.css";
 
 export default function TopBar() {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-
+    const isHome = false;
     return (
-        <div className="d-flex flex-column vw-100 vh-100"
+        <div className={`d-flex flex-column vw-100 ${isHome && "vh-100"}`}
             style={{
                 backgroundImage: `url(${mainBg})`,
                 backgroundRepeat: 'no-repeat',
@@ -22,7 +22,7 @@ export default function TopBar() {
                 </div>
                 <div className="d-flex col-6 justify-content-center align-items-center">
                     <Link className="px-4 py-1 link-item font-popins" to="/">Home</Link>
-                    <Link className="px-4 py-1 link-item font-popins" to="/explore">Explore</Link>
+                    <Link className="px-4 py-1 link-item font-popins" to="/societies">NSUT Societies</Link>
                     <Link className="px-4 py-1 link-item font-popins" to="/">Home</Link>
                     <Link className="px-4 py-1 link-item font-popins" to="/">Home</Link>
                 </div>
@@ -50,22 +50,23 @@ export default function TopBar() {
                     })}
                 </ul>
             </section>
-            <section className="d-flex h-100 flex-column align-items-center justify-content-center">
-                <div className="text-center">
-                    <p className="fw-bold h1">Get guided.</p>
+            {isHome && (<>
+                <section className="d-flex h-100 flex-column align-items-center justify-content-center">
+                    <div className="text-center">
+                        <p className="fw-bold h1">Get guided.</p>
+                    </div>
+                    <figure class="text-center">
+                        <blockquote class="blockquote">
+                            <p>A well-known quote, contained in a blockquote element.</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            Someone famous in <cite title="Source Title">Source Title</cite>
+                        </figcaption>
+                    </figure>
+                </section><div class="arrow bounce">
+                    <a class="fa fa-arrow-down fa-2x" href="#"></a>
                 </div>
-                <figure class="text-center">
-                    <blockquote class="blockquote">
-                        <p>A well-known quote, contained in a blockquote element.</p>
-                    </blockquote>
-                    <figcaption class="blockquote-footer">
-                        Someone famous in <cite title="Source Title">Source Title</cite>
-                    </figcaption>
-                </figure>
-            </section>
-            <div class="arrow bounce">
-                <a class="fa fa-arrow-down fa-2x" href="#"></a>
-            </div>
+            </>)}
         </div>
     );
 }

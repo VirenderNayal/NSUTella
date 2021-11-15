@@ -7,6 +7,7 @@ import Settings from "./pages/settings/Settings";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 import Explore from "./pages/explore/Explore";
+import Societies from "./pages/societies/Societies"
 
 function App() {
   const user = false;
@@ -15,6 +16,7 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route exact path="/societies" component={Societies} />
         <Route exact path="/explore" component={Explore} />
         <Route exact path="/register" component={Register} />
         <Route exact path="/login" component={Login} />
