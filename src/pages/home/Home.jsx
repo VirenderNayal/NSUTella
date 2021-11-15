@@ -1,17 +1,16 @@
-import Header from "../../components/header/Header";
+import TopBar from "../../components/TopBar/TopBar";
 import Posts from "../../components/posts/Posts";
 import Sidebar from "../../components/sidebar/Sidebar";
 import "./home.css";
 
 export default function Home() {
     return (
-        <>
-           <Header />
-        <div className="home">
-         <Posts />
-         <Sidebar />
+        <div>
+            <TopBar />
+            <div className="d-flex">
+                <Posts />
+                <Sidebar />
+            </div>
         </div>
-
-        </>
-    )
+    );
 }
