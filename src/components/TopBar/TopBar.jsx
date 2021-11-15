@@ -5,9 +5,9 @@ import { SidebarData } from './SidebarData';
 import mainBg from "../../assets/mainBg.jpg";
 import "./topbar.css";
 
-export default function TopBar() {
+export default function TopBar( { isHome } ) {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-    const isHome = false;
+    
     return (
         <div className={`d-flex flex-column vw-100 ${isHome && "vh-100"}`}
             style={{

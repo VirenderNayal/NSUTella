@@ -6,7 +6,7 @@ import "./home.css";
 export default function Home() {
     return (
         <div>
-            <TopBar />
+            <TopBar isHome={true} />
             <div className="d-flex">
                 <Posts />
                 <Sidebar />

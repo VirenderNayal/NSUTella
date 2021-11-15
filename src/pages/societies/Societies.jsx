@@ -1,22 +1,26 @@
-import React from 'react'
-import Society from '../../components/society/Society'
-import TopBar from '../../components/TopBar/TopBar'
-// import "./societies.css"
+import React from 'react';
+import TopBar from '../../components/TopBar/TopBar';
+import { societies } from "../../method-utilities/Societies-info/soc_content";
 
 const Societies = () => {
     return (
         <div className="col-12">
-            <TopBar />
-            <div class="row row-cols-1 row-cols-md-4 g-4 m-3">
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="..." class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.This content is a little bit longer.</p>
-                        </div>
-                    </div>
-                </div>
+            <TopBar isHome={false} />
+            <h2 className="text-center align-middle pt-4 font-mtsrt fw-bold"> Societies of NSUT </h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4 m-3">
+                {
+                    societies.map((soc) => (
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img-top" alt="..." />
+                                <div class="card-body">
+                                    <h5 class="card-title">{soc.name}</h5>
+                                    <p class="card-text">{soc.desc}</p>
+                                </div>
+                            </div>
+                        </div>)
+                    )
+                }
             </div>
         </div>
     )
