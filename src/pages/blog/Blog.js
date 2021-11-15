@@ -6,7 +6,7 @@ import "./blog.css";
 export default function Blog() {
     return (
         <div className="col-12">
-            <TopBar isHome={false} />
+            <TopBar />
             <div className="blogHead d-flex justify-content-around">
                 <div className="d-flex d-flex justify-content-start flex-column py-5">
                     <p className="heading font-mtsrt">Write to Express</p>
@@ -14,12 +14,12 @@ export default function Blog() {
                     <button className="btn mt-5 btn-primary">Start Writing</button>
                 </div>
                 <div className="d-flex">
-                    <img src="#" alt="img" />
+                    <img src="https://picsum.photos/250/300" alt="img" />
                 </div>
             </div>
             <hr />
             <section className="my-5 px-5">
-                <p><TrendingUpRounded />TRENDING</p>
+                <p><TrendingUpRounded /> TRENDING</p>
                 <div className="row row-cols-1 row-cols-md-3 g-4 customGrid">
                     <div className="col">
                         <div className="card">

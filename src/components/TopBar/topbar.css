@@ -13,13 +13,14 @@
 }
 
 .side-nav{
-    background-color: white;
+    background-color: #faf1b6;
     width: 250px;
     position: fixed;
     top: 0;
     right: -100%;
     opacity: 0;
-    transition: right 1s, opacity 1s;
+    transition: right 0.8s, opacity 0.8s;
+    z-index: 99;
 }
 
 .side-nav.active{
