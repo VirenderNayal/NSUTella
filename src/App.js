@@ -7,6 +7,7 @@ import Settings from "./pages/settings/Settings";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 import Explore from "./pages/explore/Explore";
+import Footer from "./components/footer/footer";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route exact path="/settings" component={Settings} />
         <Route exact path="/single" component={Single} />
       </Switch>
+      <Footer/>
     </Router>
   );
 }
