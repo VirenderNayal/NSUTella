@@ -11,6 +11,10 @@ import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 import GitGithub from "./pages/git-github/GitGithub";
 import OpenSource from "./pages/open-source/OpenSource";
+import Explore from "./pages/explore/Explore";
+import Footer from "./components/footer/footer";
+import Team from "./components/team/team";
+
 
 function App() {
   const user = false;
@@ -29,6 +33,8 @@ function App() {
         <Route exact path="/register" component={Register} />
         <Route exact path="/login" component={Login} />
       </Switch>
+      <Team/>
+      <Footer/>
     </Router>
   );
 }
