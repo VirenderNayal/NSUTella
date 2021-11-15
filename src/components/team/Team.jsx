@@ -7,7 +7,7 @@ import './team.css';
 
 const Team = () => {
     return (
-        <div className="w-100">
+        <div className="w-1000">
             <div className="header">
                 Our Team
             </div>

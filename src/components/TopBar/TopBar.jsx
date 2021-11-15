@@ -52,15 +52,15 @@ export default function TopBar({ isHome=false }) {
             {isHome && (<>
                 <section className="d-flex h-100 flex-column align-items-center justify-content-center">
                     <div className="text-center">
-                        <p className="fw-bold h1">Get guided.</p>
+                        <p className="fw-bold h1">We at NSUTella help you know NSUT better</p>
                     </div>
                     <figure class="text-center">
                         <blockquote class="blockquote">
-                            <p>A well-known quote, contained in a blockquote element.</p>
+                            <p>A website for the well being of students</p>
                         </blockquote>
-                        <figcaption class="blockquote-footer">
+                        {/* <figcaption class="blockquote-footer">
                             Someone famous in <cite title="Source Title">Source Title</cite>
-                        </figcaption>
+                        </figcaption> */}
                     </figure>
                 </section><div class="arrow bounce">
                     <a class="fa fa-arrow-down fa-2x" href="#"></a>
