@@ -28,7 +28,7 @@ export const societies = [
     },
     {
         name: "The Alliance",
-        tagline: "",
+        tagline: "NSUT's Newspaper",
         desc: "The Alliance is the official newspaper society of NSUT. We provide a platform to you where creative content, critical thinking and imagination thrive. Apart from being one of the oldest and most recognised societies of NSUT, what makes this society so revered by its members are the brilliant, helpful and adroit people you’ll meet here and eventually get to call friends. The Alliance is an assortment of creative minds and original thinkers, which allows you to not only explore different horizons but also makes you a part of an affectionate family, forming bonds which last for a lifetime.",
         web: "https://alliancensut.com/",
         linkedin: "https://www.linkedin.com/company/the-alliance-nsit-newspaper",
@@ -46,7 +46,7 @@ export const societies = [
     },
     {
         name: "Tatsam",
-        tagline: "",
+        tagline: "The Hindi Society of NSUT",
         desc: "तत्सम नेताजी सुभाष प्रौद्योगिकी संस्थान के छात्रों में हिंदी वाचन व लेखन को प्रोत्साहित करने के लिए प्रतिबद्ध है | “तत्सम” संस्थान के सभी हिंदी में रूचि रखने वाले छात्रों का प्रतिनिधित्व करती है | हमारा ध्येय मूलतः संस्थान में हिंदी के मौखिक एवं लिखित स्तर को विकसित करना और हिंदी के प्रति छात्रों में रुझान पैदा करना है |",
         web: "",
         linkedin: "https://www.linkedin.com/company/tatsam",
