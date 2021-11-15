@@ -57,6 +57,7 @@
     border: 2px solid var(--primary);
     left: 80px;
     top: 60px;
+    transition: 0.4s;
 }
 
 .team .info {
