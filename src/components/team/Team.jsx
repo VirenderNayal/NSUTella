@@ -1,17 +1,17 @@
-import React from 'react'
-import pic1 from '../../assets/sushant.png'
-import pic2 from '../../assets/virender.jpg'
-import pic3 from '../../assets/himanshi.jpg'
-import pic4 from '../../assets/madhavi.png'
-import './team.css'
+import React from 'react';
+import pic1 from '../../assets/sushant.png';
+import pic2 from '../../assets/virender.jpg';
+import pic3 from '../../assets/himanshi.jpg';
+import pic4 from '../../assets/madhavi.png';
+import './team.css';
+
 const Team = () => {
     return (
-        <>
+        <div className="w-100">
             <div className="header">
                 Our Team
             </div>
-
-            <div className="teamheader">
+            <div className="d-flex mx-3 mb-5 justify-content-between">
                 <div className="team" >
                     <img src={pic1} alt="girl image"></img>
                     <div className="info">
@@ -38,7 +38,6 @@ const Team = () => {
                         </div>
                     </div>
                 </div>
-
                 <div className="team" >
                     <img src={pic3} alt="girl image"></img>
                     <div className="info">
@@ -52,7 +51,6 @@ const Team = () => {
                         </div>
                     </div>
                 </div>
-
                 <div className="team" >
                     <img src={pic4} alt="girl image"></img>
                     <div className="info">
@@ -67,7 +65,7 @@ const Team = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

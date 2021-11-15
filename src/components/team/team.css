@@ -2,11 +2,6 @@
     --primary: #24262b;
 }
 
-/* body {
-    background-color: #1b1b1b;
-    color: white;
-} */
-
 .header {
     text-align: center;
     margin: auto;
@@ -17,16 +12,6 @@
     color: var(--primary);
     font-size: 45px;
     letter-spacing: 4px;
-}
-
-.teamheader {
-    margin: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    /* justify-content: center; */
-    /* align-content: center; */
-    margin-bottom: 70px;
 }
 
 .team {

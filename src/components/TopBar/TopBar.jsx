@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
-import { Close } from '@material-ui/icons';
+import { Close, AccountCircleRounded, ListSharp, MenuBookRounded } from '@material-ui/icons';
 import { SidebarData } from '../../method-utilities/SidebarData';
 import mainBg from "../../assets/mainBg.jpg";
 import "./topbar.css";
@@ -17,7 +17,7 @@ export default function TopBar({ isHome=false }) {
         >
             <div className="d-flex">
                 <div className="col-3 text-center font-mtsrt fw-bold h3">
-                    <p className="pt-3">NSUTella</p>
+                    <p className="pt-3"><MenuBookRounded className="mb-2"/> NSUTella</p>
                 </div>
                 <div className="d-flex col-6 justify-content-center align-items-center">
                     <Link className="px-4 py-1 link-item font-popins" to="/">Home</Link>
@@ -26,8 +26,8 @@ export default function TopBar({ isHome=false }) {
                     <Link className="px-4 py-1 link-item font-popins" to="/blog">Blog</Link>
                 </div>
                 <div className="d-flex col-3 justify-content-end align-items-center">
-                    <Link className="px-4 py-1 link-item font-popins" to="/">Account</Link>
-                    <div className="px-4 py-1 me-3 link-item font-popins" onClick={() => setIsSidebarOpen(!isSidebarOpen)}>Menu</div>
+                    <Link className="px-4 py-1 link-item font-popins" to="/"><AccountCircleRounded className="mb-1" /> Account</Link>
+                    <div className="px-4 py-1 me-3 link-item font-popins" onClick={() => setIsSidebarOpen(!isSidebarOpen)}>Menu <ListSharp className="mb-1" /></div>
                 </div>
             </div>
             <section className={`d-flex justify-content-center vh-100 side-nav ${isSidebarOpen && "active"}`}>
