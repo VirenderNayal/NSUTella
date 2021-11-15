@@ -2,12 +2,13 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // Components
 import Home from "./pages/home/Home";
+import Societies from "./pages/societies/Societies"
+import Blog from "./pages/blog/Blog";
+import Explore from "./pages/explore/Explore";
 import Single from "./pages/single/Single";
 import Settings from "./pages/settings/Settings";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
-import Explore from "./pages/explore/Explore";
-import Societies from "./pages/societies/Societies"
 
 function App() {
   const user = false;
@@ -18,10 +19,11 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/societies" component={Societies} />
         <Route exact path="/explore" component={Explore} />
+        <Route exact path="/blog" component={Blog} />
+        <Route exact path="/single" component={Single} />
+        <Route exact path="/settings" component={Settings} />
         <Route exact path="/register" component={Register} />
         <Route exact path="/login" component={Login} />
-        <Route exact path="/settings" component={Settings} />
-        <Route exact path="/single" component={Single} />
       </Switch>
     </Router>
   );

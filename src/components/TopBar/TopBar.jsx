@@ -5,9 +5,8 @@ import { SidebarData } from './SidebarData';
 import mainBg from "../../assets/mainBg.jpg";
 import "./topbar.css";
 
-export default function TopBar( { isHome } ) {
+export default function TopBar({ isHome }) {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-    
     return (
         <div className={`d-flex flex-column vw-100 ${isHome && "vh-100"}`}
             style={{
@@ -23,7 +22,7 @@ export default function TopBar( { isHome } ) {
                 <div className="d-flex col-6 justify-content-center align-items-center">
                     <Link className="px-4 py-1 link-item font-popins" to="/">Home</Link>
                     <Link className="px-4 py-1 link-item font-popins" to="/societies">NSUT Societies</Link>
-                    <Link className="px-4 py-1 link-item font-popins" to="/">Home</Link>
+                    <Link className="px-4 py-1 link-item font-popins" to="/blog">Blog</Link>
                     <Link className="px-4 py-1 link-item font-popins" to="/">Home</Link>
                 </div>
                 <div className="d-flex col-3 justify-content-end align-items-center">
