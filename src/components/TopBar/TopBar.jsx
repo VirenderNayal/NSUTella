@@ -63,7 +63,7 @@ export default function TopBar({ isHome=false }) {
                         </figcaption> */}
                     </figure>
                 </section><div class="arrow bounce">
-                    <a class="fa fa-arrow-down fa-2x" href="#"></a>
+                    <a class="fa fa-arrow-down fa-2x" href="#main"></a>
                 </div>
             </>)}
         </div>

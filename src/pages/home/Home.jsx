@@ -16,8 +16,8 @@ export default function Home() {
                 {/* <Posts /> */}
                 {/* <Sidebar /> */}
             </div>
-            <div className="d-flex flex-column">
-                <Git/>
+            <div id="main" className="d-flex flex-column">
+                <Git />
                 <Soc/>
                 <Team />
                 <Footer />
