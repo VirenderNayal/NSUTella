@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 export default function Post() {
     return (
         <div className="post">
-            <img className="postImg" src="https://images.all-free-download.com/images/graphiclarge/hd_earth_image_05_hd_pictures_167039.jpg"  />
+            <img className="postImg" src="https://images.all-free-download.com/images/graphiclarge/hd_earth_image_05_hd_pictures_167039.jpg"  alt="pic"/>
 
             <div className="postInfo">
                 <div className="postCats">

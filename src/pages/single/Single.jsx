@@ -10,7 +10,7 @@ export default function Single({ title, author, content }) {
                 < Sidebar />
                 <div className="singlePost">
                     <div className="singlePostWrapper">
-                        < img className="singlePostImg"
+                        < img className="singlePostImg" alt="wallpaper"
                             src="https://wonderfulengineering.com/wp-content/uploads/2014/10/wallpaper-photos-31.jpg"
                         />
                         <h1 className="singlePostTitle">

@@ -9,7 +9,7 @@ const Soc = () => {
             <div className="box2">Nsut Societies</div>
             <div className="box3">
                 <div className="box3second nsut">
-                    <img src={pic} alt="mic image" />
+                    <img src={pic} alt="mic" />
                 </div>
                 <div className="box3first">
                     <div className="box3firstcontent">

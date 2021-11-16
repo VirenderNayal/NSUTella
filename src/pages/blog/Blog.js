@@ -25,9 +25,9 @@ export default function Blog() {
                         <div className="card">
                             <div className="d-flex justify-content-center align-items-start">
                                 <p>01</p>
-                                <div class="card-body px-3 py-0">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supportiral lead-in to additional content.</p>
+                                <div className="card-body px-3 py-0">
+                                    <h5 className="card-title">Card title</h5>
+                                    <p className="card-text">This is a longer card with supportiral lead-in to additional content.</p>
                                     <p><span>Nov 14</span> - <span>5 min</span></p>
                                 </div>
                             </div>
@@ -37,9 +37,9 @@ export default function Blog() {
                         <div className="card">
                             <div className="d-flex justify-content-center align-items-start">
                                 <p>02</p>
-                                <div class="card-body px-3 py-0">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supportiral lead-in to additional content.</p>
+                                <div className="card-body px-3 py-0">
+                                    <h5 className="card-title">Card title</h5>
+                                    <p className="card-text">This is a longer card with supportiral lead-in to additional content.</p>
                                     <p><span>Nov 14</span> - <span>5 min</span></p>
                                 </div>
                             </div>
@@ -49,9 +49,9 @@ export default function Blog() {
                         <div className="card">
                             <div className="d-flex justify-content-center align-items-start">
                                 <p>03</p>
-                                <div class="card-body px-3 py-0">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supportiral lead-in to additional content.</p>
+                                <div className="card-body px-3 py-0">
+                                    <h5 className="card-title">Card title</h5>
+                                    <p className="card-text">This is a longer card with supportiral lead-in to additional content.</p>
                                     <p><span>Nov 14</span> - <span>5 min</span></p>
                                 </div>
                             </div>
@@ -61,40 +61,40 @@ export default function Blog() {
             </section>
             <hr />
             <section className="my-5 px-5">
-                <div class="row row-cols-1 row-cols-md-2 g-4 customGrid">
-                    <div class="col">
-                        <div class="card">
+                <div className="row row-cols-1 row-cols-md-2 g-4 customGrid">
+                    <div className="col">
+                        <div className="card">
                             <div className="d-flex">
-                                <div class="card-body">
-                                    <h6 class="card-title">Card title</h6>
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content</p>
+                                <div className="card-body">
+                                    <h6 className="card-title">Card title</h6>
+                                    <h5 className="card-title">Card title</h5>
+                                    <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content</p>
                                     <p><span>Oct 27</span> - <span>15 min</span></p>
                                 </div>
                                 <img src="https://picsum.photos/200/150" alt="pic" />
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card">
+                    <div className="col">
+                        <div className="card">
                             <div className="d-flex">
-                                <div class="card-body">
-                                    <h6 class="card-title">Card title</h6>
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content</p>
+                                <div className="card-body">
+                                    <h6 className="card-title">Card title</h6>
+                                    <h5 className="card-title">Card title</h5>
+                                    <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content</p>
                                     <p><span>Oct 27</span> - <span>15 min</span></p>
                                 </div>
                                 <img src="https://picsum.photos/200/150" alt="pic" />
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card">
+                    <div className="col">
+                        <div className="card">
                             <div className="d-flex">
-                                <div class="card-body">
-                                    <h6 class="card-title">Card title</h6>
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content</p>
+                                <div className="card-body">
+                                    <h6 className="card-title">Card title</h6>
+                                    <h5 className="card-title">Card title</h5>
+                                    <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content</p>
                                     <p><span>Oct 27</span> - <span>15 min</span></p>
                                 </div>
                                 <img src="https://picsum.photos/200/150" alt="pic" />

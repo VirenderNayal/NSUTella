@@ -1,3 +1,7 @@
+.image-icon{
+    width:40px;
+}
+
 .link-item{
     border-radius: 0.7rem;
     text-decoration: none;
@@ -32,7 +36,7 @@
     width: 100%;
     height: 45px;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
 }
 

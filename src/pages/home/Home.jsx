@@ -1,6 +1,6 @@
 import TopBar from "../../components/TopBar/TopBar";
-import Posts from "../../components/posts/Posts";
-import Sidebar from "../../components/sidebar/Sidebar";
+// import Posts from "../../components/posts/Posts";
+// import Sidebar from "../../components/sidebar/Sidebar";
 import Footer from "../../components/footer/Footer";
 import Team from "../../components/team/Team";
 import Git from "../../components/git-hub-compo/git"

@@ -12,7 +12,7 @@ export default function OpenSource() {
                 < Sidebar />
                 <div className="singlePost">
                     <div className="singlePostWrapper">
-                        < img className="singlePostImg" src={OpenSourceImage} />
+                        < img className="singlePostImg" src={OpenSourceImage} alt="pic"/>
                         <h1 className="singlePostTitle font-mtsrt">
                             A start for open source jounery.
                             <div className="singlePostEdit">

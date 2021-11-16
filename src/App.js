@@ -13,7 +13,7 @@ import GitGithub from "./pages/git-github/GitGithub";
 import OpenSource from "./pages/open-source/OpenSource";
 
 function App() {
-  const user = false;
+  // const user = false;
   // const user = true;
   return (
     <Router>

@@ -12,7 +12,7 @@ export default function GitGihub() {
                 < Sidebar />
                 <div className="singlePost">
                     <div className="singlePostWrapper">
-                        < img className="singlePostImg" src={GitGihubImage} />
+                        < img className="singlePostImg" src={GitGihubImage} alt="pic"/>
                         <h1 className="singlePostTitle font-mtsrt">
                             What is Git and Github?
                             <div className="singlePostEdit">

@@ -12,14 +12,14 @@ const Git = () => {
                     <div className="box3firstcontent">
                     GitHub is a web-based version-control and collaboration platform for software developers. ... GitHub facilitates social coding by providing a web interface to the Git code repository and management tools for collaboration. GitHub can be thought of as a serious social networking site for software developers.
                     </div>
-                    <div class="wrapper">
-                        <div class="btn">
+                    <div className="wrapper">
+                        <div className="btn">
                             <button type="button"> Know More </button>
                         </div>
                     </div>
                 </div>
                 <div className="box3second">
-                    <img src={pic} alt="mic image" />
+                    <img src={pic} alt="mic" />
                 </div>
             </div>
             
