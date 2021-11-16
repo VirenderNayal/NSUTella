@@ -1,6 +1,7 @@
 import React from 'react';
 import './soc.css'
 import pic from '../../assets/fsoc.jpeg'
+import { Link } from "react-router-dom";
 
 const Soc = () => {
     return (
@@ -15,7 +16,7 @@ const Soc = () => {
                         NSUT has a strong culture of student activities. Numerous societies are active on campus that aim to inculcate team values & nurture talent within students. These clubs attract students from all walks of life, cutting across departments. This gives students a chance to experiment with their interests and hobbies.                    </div>
                     <div class="wrapper">
                         <div class="btn">
-                            <button type="button"> Know More </button>
+                            <Link to="/explore/open-source"><button type="button"> Know More </button></Link>
                         </div>
                     </div>
                 </div>
