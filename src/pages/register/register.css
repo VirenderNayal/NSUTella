@@ -6,8 +6,7 @@
     background: linear-gradient(
         rgba(197, 128, 71, 0.5),
         rgba(197, 128, 71, 0.5),
-    ),
-    url("");
+    );
     background-size:cover;
     align-items: center;
 

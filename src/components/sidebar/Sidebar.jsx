@@ -5,10 +5,9 @@ export default function Sidebar() {
         <div className="sidebar">
             <div className="sidebarItem">
                 <span className="sidebarTitle">HOW IT WORKS</span>
-                <img className="img_1"src="https://img.freepik.com/free-vector/group-college-university-students-hanging-out_74855-5251.jpg?size=626&ext=jpg" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus optio, nostrum
-                     culpa sunt quia vel dolorem! Hic aliquam, minima doloremque distinctio voluptates 
-                    voluptate cumque facilis repellendus ab ratione commodi quam.</p>
+                <img className="img_1"src="https://img.freepik.com/free-vector/group-college-university-students-hanging-out_74855-5251.jpg?size=626&ext=jpg" alt="pic"/>
+                <p>	Let noble thoughts come to me from all directions<br/> ā no bhadrā kratvo yantu viśwataḥ <br/><br/>
+                This project is made with sincere efforts by our team under the guidance of <b>Vandana Bhatia</b></p>
             </div>
 
             <div className="sidebarItem">

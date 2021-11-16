@@ -12,7 +12,7 @@ export default function Settings() {
                 <form className="settingsForm">
                 <label>PROFILE PICTURE</label>
                 <div className="settingsPP">
-                    <img 
+                    <img alt="pic"
                     src="https://i.ytimg.com/vi/al9ZCYIKGG0/hqdefault.jpg"
                     />
                     <label htmlFor="fileInput">

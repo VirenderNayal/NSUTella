@@ -1,0 +1,25 @@
+.blogHead{
+    background-color: #e6e9fa;
+    height: 25rem;
+}
+
+.blogHead .heading{
+    font-size: 5rem;
+    
+}
+
+.blogHead .btn{
+    width: 130px;
+    height: 40px;
+    color: white;
+}
+
+.customGrid .card{
+    border: 0px;
+    cursor: pointer;
+}
+
+.customGrid img{
+    height: 150px;
+    width: 200px;
+}
