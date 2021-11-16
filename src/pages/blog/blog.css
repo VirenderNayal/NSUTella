@@ -5,6 +5,7 @@
 
 .blogHead .heading{
     font-size: 5rem;
+    
 }
 
 .blogHead .btn{
@@ -15,6 +16,7 @@
 
 .customGrid .card{
     border: 0px;
+    cursor: pointer;
 }
 
 .customGrid img{
