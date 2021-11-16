@@ -28,7 +28,7 @@ const Team = () => {
                 <div className="team" >
                     <img src={pic2} alt="girl"></img>
                     <div className="info">
-                        <div className="name">Virender Singh</div>
+                        <div className="name">Virender Nayal</div>
                         <div className="title">Co-Founder</div>
                         <div className="social">
                             <i className="fab fa-facebook-f"></i>

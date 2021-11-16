@@ -18,7 +18,7 @@ export default function TopBar({ isHome=false }) {
         >
             <div className="d-flex">
                 <div className="col-3 text-center font-mtsrt fw-bold h3">
-                    <p className="pt-3"><img src={logoIcon} className=" image-icon mb-2" alt="nsutella"/> NSUTella</p>
+                    <p className="pt-3"><Link to="/" style={{ textDecoration: "none", color: "black"}} ><img src={logoIcon} className=" image-icon mb-2" alt="nsutella"/> NSUTella</Link></p>
                 </div>
                 <div className="d-flex col-6 justify-content-center align-items-center">
                     <Link className="px-4 py-1 link-item font-popins" to="/">Home</Link>

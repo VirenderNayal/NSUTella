@@ -1,6 +1,8 @@
 import React from 'react';
 import TopBar from '../../components/TopBar/TopBar';
 import { TrendingUpRounded } from '@material-ui/icons';
+import { Link } from "react-router-dom";
+import blogImg from "../../assets/blog-img.png";
 import "./blog.css";
 
 export default function Blog() {
@@ -11,10 +13,10 @@ export default function Blog() {
                 <div className="d-flex d-flex justify-content-start flex-column py-5">
                     <p className="heading font-mtsrt">Write to Express</p>
                     <p className="fs-5 font-popins px-4">What you like, know and want to share.</p>
-                    <a href="/account"><button className="btn mt-5 btn-primary">Start Writing</button></a>
+                    <Link to="/account"><button className="btn mt-5 btn-primary">Start Writing</button></Link>
                 </div>
                 <div className="d-flex">
-                    <img src="https://picsum.photos/250/300" alt="img" />
+                    <img src={blogImg} alt="img" />
                 </div>
             </div>
             <hr />
