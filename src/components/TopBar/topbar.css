@@ -1,9 +1,13 @@
+.image-icon{
+    width:40px;
+}
+
 .link-item{
     border-radius: 0.7rem;
     text-decoration: none;
     color: black;
     cursor: pointer;
-    transition: .5s ease;
+    transition: 0.5s ease;
 }
 
 .link-item:hover{
@@ -19,7 +23,7 @@
     top: 0;
     right: -100%;
     opacity: 0;
-    transition: right 0.8s, opacity 0.8s;
+    transition: all 1s linear;
     z-index: 99;
 }
 
@@ -32,7 +36,7 @@
     width: 100%;
     height: 45px;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
 }
 

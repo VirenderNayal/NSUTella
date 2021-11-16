@@ -12,7 +12,7 @@ export default function GitGihub() {
                 < Sidebar />
                 <div className="singlePost">
                     <div className="singlePostWrapper">
-                        < img className="singlePostImg" src={GitGihubImage} />
+                        < img className="singlePostImg" src={GitGihubImage} alt="pic"/>
                         <h1 className="singlePostTitle font-mtsrt">
                             What is Git and Github?
                             <div className="singlePostEdit">
@@ -27,7 +27,7 @@ export default function GitGihub() {
                             <span className="singlePostDate"> 1 min ago</span>
                         </div>
                         <p className="singlePostDesc font-popins">
-                            What is Git?
+                            
                             Git is a free, open-source version control software. It was created by Linus Torvalds in 2005. This tool is a version control system that was initially developed to work with several developers on the Linux kernel.
 
                             This basically means that Git is a content tracker. So Git can be used to store content — and it is mostly used to store code because of the other features it provides.
@@ -38,17 +38,17 @@ export default function GitGihub() {
 
                             The branch system in Git allows developers to work individually on a task (For example: One branch &rarr One task OR One branch &rarr One developer). Basically think of Git as a small software application that controls your code base, if you’re a developer.
 
+                            <br /><br/><br/>
 
-
-                            ************************************USES OF GIT:  ***************************
-                            Git makes it easy to contribute to open source projects
-                            Documentation
-                            Integration options
-                            Track changes in your code across versions
+                            USES OF GIT: <br /><br/>
+                            Git makes it easy to contribute to open source projects,
+                            Documentation,
+                            Integration options,
+                            Track changes in your code across versions and
                             Showcase your work
+                                    <br /><br/><br/>
 
-
-                            ******************************Git Repositories **********************************
+                            GIT REPOSITORIES:<br/> <br/>
                             If we want to start using Git, we need to know where to host our repositories.
 
                             A repository (or “Repo” for short) is a project that contains multiple files. In our case a repository will contain code-based files.
@@ -58,40 +58,40 @@ export default function GitGihub() {
                             There are three popular Git hosting services: GitHub (owned by Microsoft), GitLab (owned by GitLab) and BitBucket.
 
 
-                            *********************************How to Use Git *************************************************
+                            
 
-                            ***********Learning & Mastering Git Commands:
+                            <br /><br/><br/>
 
                             If you're getting started with Git, a great place to start is the Git Cheat sheet. It's translated into many languages, open source as a part of the github/training-kit repository, and a great starting place for the fundamentals on the command line.
+<br/><br/>
+                            <br/>Some of the most important and most used commands that you'll find there are:<br/><br/>
+                            <ul>
+                            <li> git clone [url]: Clone (download) a repository that already exists on GitHub, including all of the files, branches, and commits.</li>
 
-                            ********Some of the most important and most used commands that you'll find there are:
+                            <li> git status: Always a good idea, this command shows you what branch you're on, what files are in the working or staging directory, and any other important information.</li>
 
-                            &rarr git clone [url]: Clone (download) a repository that already exists on GitHub, including all of the files, branches, and commits.
+                            <li> git branch: This shows the existing branches in your local repository. You can also use git branch [banch-name] to create a branch from your current location, or git branch --all to see all branches, both the local ones on your machine, and the remote tracking branches stored from the last git pull or git fetch from the remote.</li>
 
-                            &rarr git status: Always a good idea, this command shows you what branch you're on, what files are in the working or staging directory, and any other important information.
+                            <li> git checkout [branch-name]: Switches to the specified branch and updates the working directory.</li>
 
-                            &rarr git branch: This shows the existing branches in your local repository. You can also use git branch [banch-name] to create a branch from your current location, or git branch --all to see all branches, both the local ones on your machine, and the remote tracking branches stored from the last git pull or git fetch from the remote.
+                            <li> git add [file]: Snapshots the file in preparation for versioning, adding it to the staging area.</li>
 
-                            &rarr git checkout [branch-name]: Switches to the specified branch and updates the working directory.
+                            <li> git commit -m "descriptive message": Records file snapshots permanently in version history.</li>
 
-                            &rarr git add [file]: Snapshots the file in preparation for versioning, adding it to the staging area.
+                            <li> git pull: Updates your current local working branch with all new commits from the corresponding remote branch on GitHub. git pull is a combination of git fetch and git merge.</li>
 
-                            &rarr git commit -m "descriptive message": Records file snapshots permanently in version history.
+                            <li> git push: Uploads all local branch commits to the remote.</li>
 
-                            &rarr git pull: Updates your current local working branch with all new commits from the corresponding remote branch on GitHub. git pull is a combination of git fetch and git merge.
+                            <li> git log: Browse and inspect the evolution of project files.</li>
 
-                            &rarr git push: Uploads all local branch commits to the remote.
-
-                            &rarr git log: Browse and inspect the evolution of project files.
-
-                            &rarr git remote -v: Show the associated remote repositories and their stored name, like origin.
-
-
-
+                            <li> git remote -v: Show the associated remote repositories and their stored name, like origin.</li>
+</ul>
 
 
 
-                            ***************************Getting Started With GitHub *************************
+<br/><br/><br/>
+
+                            Getting Started With GitHub <br/><br/>
                             If you're wondering where Git ends and GitHub begins, you're not alone. They are tied closely together to make working with them both a seamless experience. While Git takes care of the underlying version control, GitHub is the collaboration platform built on top of it. GitHub is the place for pull requests, comments, reviews, integrated tests, and so much more. Most developers work locally to develop, and use GitHub for collaboration. That ranges from using GitHub to host the shared remote repository, to working with colleagues and capitalizing on features like protected branches, code review, GitHub Actions, and more.
                         </p>
                     </div>

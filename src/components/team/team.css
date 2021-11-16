@@ -1,7 +1,9 @@
 :root {
     --primary: #24262b;
 }
-
+.w-1000{
+    background-color: rgb(245, 245, 245);
+}
 .header {
     text-align: center;
     margin: auto;
@@ -49,6 +51,7 @@
     z-index: 3;
     object-fit: cover;
     border: none;
+    transition: all 0.3s linear;
 }
 
 .team:hover img {
@@ -57,7 +60,6 @@
     border: 2px solid var(--primary);
     left: 80px;
     top: 60px;
-    transition: 0.4s;
 }
 
 .team .info {

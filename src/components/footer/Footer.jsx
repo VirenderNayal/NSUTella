@@ -3,10 +3,10 @@ import './footer.css';
 
 const Footer = () => {
     return (
-        <footer class="footer font-popins">
-            <div class="fcontainer">
-                <div class="row">
-                    <div class="footer-col">
+        <footer className="footer font-popins">
+            <div className="fcontainer">
+                <div className="row">
+                    <div className="footer-col">
                         <h4>NSUTella</h4>
                         <ul className="ful">
                             <li><a href="#">Home</a></li>
@@ -16,7 +16,7 @@ const Footer = () => {
                             <li><a href="#">Affiliate program</a></li>
                         </ul>
                     </div>
-                    <div class="footer-col">
+                    <div className="footer-col">
                         <h4>Help Us</h4>
                         <ul className="ful">
                             <li><a href="#">FAQ</a></li>
@@ -24,7 +24,7 @@ const Footer = () => {
                             <li><a href="#">Donate Now </a></li>
                         </ul>
                     </div>
-                    <div class="footer-col">
+                    <div className="footer-col">
                         <h4>contact us</h4>
                         <ul className="ful">
                             <li><a href="#">NSUTella4all@gmail.com</a></li>
@@ -32,13 +32,13 @@ const Footer = () => {
                             {/* <li><a href="#">Kakrola, Near Dwarka Mor Metro Station, New delhi –110078. Paschim Vihar, New Delhi, Delhi 110063</a></li> */}
                         </ul>
                     </div>
-                    <div class="footer-col">
+                    <div className="footer-col">
                         <h4>follow us</h4>
-                        <div class="social-links">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <div className="social-links">
+                            <a href="#"><i className="fab fa-facebook-f"></i></a>
+                            <a href="#"><i className="fab fa-twitter"></i></a>
+                            <a href="#"><i className="fab fa-instagram"></i></a>
+                            <a href="#"><i className="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>

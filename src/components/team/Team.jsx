@@ -7,13 +7,13 @@ import './team.css';
 
 const Team = () => {
     return (
-        <div className="w-100">
+        <div className="w-1000">
             <div className="header">
                 Our Team
             </div>
             <div className="d-flex mx-3 mb-5 justify-content-between">
                 <div className="team" >
-                    <img src={pic1} alt="girl image"></img>
+                    <img src={pic1} alt="girl"></img>
                     <div className="info">
                         <div className="name">Sushant Singh</div>
                         <div className="title">CEO and Founder</div>
@@ -26,7 +26,7 @@ const Team = () => {
                     </div>
                 </div>
                 <div className="team" >
-                    <img src={pic2} alt="girl image"></img>
+                    <img src={pic2} alt="girl"></img>
                     <div className="info">
                         <div className="name">Virender Singh</div>
                         <div className="title">Co-Founder</div>
@@ -39,7 +39,7 @@ const Team = () => {
                     </div>
                 </div>
                 <div className="team" >
-                    <img src={pic3} alt="girl image"></img>
+                    <img src={pic3} alt="girl"></img>
                     <div className="info">
                         <div className="name">Himanshi</div>
                         <div className="title">Project Manager</div>
@@ -52,7 +52,7 @@ const Team = () => {
                     </div>
                 </div>
                 <div className="team" >
-                    <img src={pic4} alt="girl image"></img>
+                    <img src={pic4} alt="girl"></img>
                     <div className="info">
                         <div className="name">Madhavi Dixit </div>
                         <div className="title">Marketing Manager</div>
