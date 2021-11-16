@@ -59,9 +59,9 @@ export default function TopBar({ isHome=false }) {
                         <blockquote className="blockquote">
                             <p>A website for the well being of students</p>
                         </blockquote>
-                        {/* <figcaption className="blockquote-footer">
-                            Someone famous in <cite title="Source Title">Source Title</cite>
-                        </figcaption> */}
+                        <figcaption className="blockquote-footer">
+                            By Team <cite title="Source Title">For everyone</cite>
+                        </figcaption>
                     </figure>
                 </section><div className="arrow bounce">
                     <a className="fa fa-arrow-down fa-2x" href="#main"> </a>

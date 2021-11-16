@@ -12,13 +12,9 @@ export default function Home() {
     return (
         <div>
             <TopBar isHome={true} />
-            <div className="d-flex">
-                {/* <Posts /> */}
-                {/* <Sidebar /> */}
-            </div>
             <div id="main" className="d-flex flex-column">
                 <Git />
-                <Soc/>
+                <Soc />
                 <Team />
                 <Footer />
             </div>
