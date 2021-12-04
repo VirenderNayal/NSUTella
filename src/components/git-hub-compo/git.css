@@ -48,7 +48,7 @@
 .wrapper{
     padding-left: 12rem;
 }
-button {
+.gcontainer button {
     background: none;
     color: rgb(38,50,56);
     width: 12rem;
@@ -59,10 +59,10 @@ button {
     transition: .4s;
     overflow: hidden;
 }
-button:focus{
+.gcontainer button:focus{
     outline:none;
 }
-button:before{
+.gcontainer button:before{
     content: '';
     display: block;
     position: absolute;

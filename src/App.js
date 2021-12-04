@@ -5,15 +5,12 @@ import Home from "./pages/home/Home";
 import Societies from "./pages/societies/Societies"
 import Blog from "./pages/blog/Blog";
 import Explore from "./pages/explore/Explore";
-// import Single from "./pages/single/Single";
-// import Settings from "./pages/settings/Settings";
-import Account from "./pages/login/Account";
 import GitGithub from "./pages/git-github/GitGithub";
 import OpenSource from "./pages/open-source/OpenSource";
+import NotFound from "./pages/NotFound/NotFound";
+import Account from "./pages/Account/Account";
 
 function App() {
-  // const user = false;
-  // const user = true;
   return (
     <Router>
       <Switch>
@@ -24,8 +21,7 @@ function App() {
         <Route exact path="/societies" component={Societies} />
         <Route exact path="/blog" component={Blog} />
         <Route exact path="/account" component={Account} />
-        {/* <Route exact path="/single" component={Single} /> */}
-        {/* <Route exact path="/settings" component={Settings} /> */}
+        <Route component={NotFound} />
       </Switch>
     </Router>
   );

@@ -3,14 +3,15 @@ import TopBar from '../../components/TopBar/TopBar';
 import CardItem from "./CardItem";
 import OpenSource from "../../assets/openSource.png";
 import GitGithub from "../../assets/git-github.png";
+import Footer from "../../components/footer/Footer";
 import "./explore.css";
 
 function Explore() {
     return (
-        <div className="col-12 explore">
+        <div className="col-12">
             <TopBar />
             <div className='cards'>
-                <h1 className="font-mtsrt ">!! EXPLORE !!</h1>
+                <h1 className="font-mtsrt ">EXPLORE</h1>
                 <div className="cards__container">
                     <div className="cards__wrapper">
                         <ul className="cards__item">
@@ -70,14 +71,11 @@ function Explore() {
                                 label='Network Security'
                                 path='/404'
                             />
-                            
                         </ul>
-                       
-                       
-                        
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

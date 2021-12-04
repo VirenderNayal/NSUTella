@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Soc = () => {
     return (
-        <div className="scontainer">
+        <div className="gcontainer">
             <div className="box2">NSUT Societies</div>
             <div className="box3">
                 <div className="box3second nsut">

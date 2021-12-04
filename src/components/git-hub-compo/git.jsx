@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 const Git = () => {
     return (
         <div className="gcontainer">
-            {/* <div className="box1">About Us</div> */}
             <div className="box2">Github</div>
             <div className="box3">
                 <div className="box3first">
