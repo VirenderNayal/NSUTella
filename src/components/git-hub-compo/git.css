@@ -74,26 +74,26 @@
     filter: blur(30px);
 }
 
-button:after{
+.gcontainer button:after{
     content: '';
     display: block;
     position: absolute;
     background: rgba(255,255,255,.2);
     width: 30px;
 }
-button:hover {
+.gcontainer button:hover {
     background: rgb(38, 50, 56);
     color: rgb(245,245,245);
     border: 0.1rem solid rgb(38,50,56);
     cursor:pointer;
 }
 
-button:hover:before {
+.gcontainer button:hover:before {
     opacity: .6;
     transition: .7s;
 }
 
-button:hover:after {
+.gcontainer button:hover:after {
     opacity: 1;
     transition: .7s;
 }
