@@ -1,0 +1,43 @@
+.dashboard{
+    background-color: rgb(236, 207, 152);
+    width: 100%;
+    height: 60vh;
+}
+
+.dashboard img{
+    height: 250px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 9rem;
+}
+
+.modal-edit{
+    background-color: rgb(162, 241, 146);
+    width: 500px;
+    height: 380px;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 0.6rem;
+    top: 10%;
+    left: 30%;
+}
+
+.modal-edit input{
+    outline: none;
+    border: none;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666;
+    display: block;
+    width: 100%;
+    background: #e6e6e6;
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 30px 0 68px;
+}
+
+.logout-btn{
+    outline: none;
+    border: none;
+    background-color: inherit;
+}

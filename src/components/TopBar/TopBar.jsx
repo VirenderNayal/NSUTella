@@ -27,7 +27,7 @@ export default function TopBar({ isHome=false }) {
                     <Link className="px-4 py-1 link-item font-popins" to="/blog">Blog</Link>
                 </div>
                 <div className="d-flex col-3 justify-content-end align-items-center">
-                    <Link className="px-4 py-1 link-item font-popins" to="/account"><AccountCircleRounded className="mb-1" /> Account</Link>
+                    <Link className="px-4 py-1 link-item font-popins" to="/dashboard"><AccountCircleRounded className="mb-1" /> Account</Link>
                     <div className="px-4 py-1 me-3 link-item font-popins" onClick={() => setIsSidebarOpen(!isSidebarOpen)}>Menu <ListSharp className="mb-1" /></div>
                 </div>
             </div>
