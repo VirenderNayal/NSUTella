@@ -13,7 +13,7 @@ export default function Blog() {
                 <div className="d-flex d-flex justify-content-start flex-column py-5">
                     <p className="heading font-mtsrt">Write to Express</p>
                     <p className="fs-5 font-popins px-4">What you like, know and want to share.</p>
-                    <Link to="/account"><button className="btn mt-5 btn-primary">Start Writing</button></Link>
+                    <Link to="/dashboard"><button className="btn mt-5 btn-primary">Start Writing</button></Link>
                 </div>
                 <div className="d-flex">
                     <img src={blogImg} alt="img" />
