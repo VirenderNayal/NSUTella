@@ -87,4 +87,4 @@ Then add a title and description to your pull request that explains your contrib
 Your Pull Request has been submitted and will be reviewed by the maintainer and merged.
 
 
-Hope you will learn something new while contributing in this project!!😇�
+Hope you will learn something new while contributing in this project!!😇
