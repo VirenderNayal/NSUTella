@@ -1,4 +1,4 @@
-# Web Development Project
+# NSUTella (An e-guide for Engineers by Engineers)
 
 [Hosted on firebase 🔗 ](https://nsutella-development.web.app/)
 
